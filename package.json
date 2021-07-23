@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
+  },
   "scripts": {
     "start": "node src/app.js"
   },
@@ -17,6 +21,7 @@
     "fastify-helmet": "^5.3.2",
     "fastify-static": "^4.2.2",
     "handlebars": "^4.7.7",
+    "node": "^16.5.0",
     "path": "^0.12.7",
     "point-of-view": "^4.15.1"
   }
